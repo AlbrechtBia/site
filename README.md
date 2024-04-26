@@ -33,4 +33,57 @@
 
 </body>
 </html>
+
     
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho{
+    background-color: #E90D1D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+body {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+          
+}
+
+
+.cabeçalho-imagem{
+width: 17%;
+
+}
+.cabeçalho-lista-item{
+
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+.turma-imagem{
+    width: 25%;
+}
+.turma{
+    background-image: linear-gradient(#E90D1D,#e218c0) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.turma-titulo{
+    padding: 24px 0;
+}
+.turma-titulo-2{
+    padding: 24px 0;
+}
+.div-turma-conteudo{
+width: 35%;
+}
+<css/>
