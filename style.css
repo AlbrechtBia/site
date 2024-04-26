@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+a
+
+header {
+    background-color: #424424;
+    ccolor: purple;
 }
 
 .cabecalho {
