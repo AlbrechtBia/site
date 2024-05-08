@@ -3,33 +3,11 @@
     padding: 0;
 }
 .cabeçalho{
-    background-color: #f1212f;
-    color: white;
+    background-color: linear-gradient(#E90D1D,#e218c0) ;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
-}
-body {
-        font-family: "Abel", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-          
-}
-
-
-.cabeçalho-imagem{
-width: 17%;
-
-}
-.cabeçalho-lista-item{
-
-    display: inline-block;
-    margin: 20px;
-    font-size: 20px;
-}
-.turma-imagem{
-    width: 25%;
+    padding: 10px 20;
 }
 .turma{
     background-image: linear-gradient(#E90D1D,#e218c0) ;
@@ -37,8 +15,33 @@ width: 17%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 150px 0;
+    }
+
+body {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
 }
+
+
+.cabeçalho-lista-item{
+
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    background-color: linear-gradient(#E90D1D,#e218c0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px, 0, 0;
+    
+}
+.turma-imagem{
+    width: 25%;
+}
+
 
 .turma-titulo{
     padding: 24px 0;
@@ -47,5 +50,5 @@ width: 17%;
     padding: 24px 0;
 }
 .div-turma-conteudo{
-width: 35%;
+width: 45%;
 }
